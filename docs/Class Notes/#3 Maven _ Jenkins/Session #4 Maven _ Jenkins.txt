@@ -1,0 +1,96 @@
+Session #4: 13/2/2022 - 8:00PM - 11:00PM
+=========================================
+****************
+Agenda:
+=======
+
+Maven - Theory
+Maven - Practical
+
+Q/A Session - 30 Minutes once
+6 Q/A Sessions - 2 to 3 Minutes
+
+9PM - 9.15PM - Break
+
+Jenkins - Theory
+Jenkins - Practical
+
+****************
+
+Deliverables:
+
+Documentation for adding a slave node
+Documentation for enabling the user for project based matrix authorization strategy
+
+
+Java ----
+
+1.java ---- human readable format
+2.java
+3.java
+
+n.java 
+
+single file -- that file understandable - server
+
+Web servers --- .war/.jar/.ear 
+
+war - web archive
+jar - java archive
+ear - enterprise archive 
+
+windows - .msi/.exe
+Web server(Tomcat) - .war/.jar/ear 
+
+My Application(Java)  <----->  MySQL(DB)
+1.java
+2.java
+3.java
+
+---->mysql.jar dependency 
+
+username
+password
+endpoint
+
+
+Maven Project --- Pom.xml
+
+Application Code
+Testing Code application
+
+Maven Lifecyle
+Maven Goals
+
+JFrog Artifactory / Nexus Artifactory
+
+
+Application  --------   Firewall    XXXXXXXXXXX  Internet
+
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+Dev ---- Code ======   
+
+DevOps --- CI pipeline --- mvn package
+
+jar/war file 
+
+Requirement
+1 Code - human part
+2 Build - artifact
+3 Deploy - test server / tomcat
+4 Testing - 
+5 Notifications - Dev/Project Manager
+
+Fail Fast --- 
+
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+sudo yum install jenkins -y
+sudo service jenkins start
+
+
+
+
