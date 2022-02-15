@@ -1,0 +1,31 @@
+git init
+
+Then I added to files
+1.txt
+2.txt
+
+git status
+
+Untracked status
+
+git add 1.txt
+git add 2.txt
+
+git commit -m "First Commit for Demo"
+
+git branch
+
+git log --oneline
+
+git remote add origin https://github.com/SanthoshNC/GitDemo06022022.git
+
+git branch -M main
+git checkout -b <branchname>
+
+git push -u origin main
+
+git clone 
+
+
+
+
